@@ -1,0 +1,24 @@
+body {
+  padding: 100px;
+  background-color: white;
+}
+
+.grid {
+  display: flex;
+  background-color: silver;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row;
+  flex-wrap: wrap;
+  width: 750px;
+  height: 750px;
+  margin: 0 auto;
+  border: 2px solid black;
+}
+
+.box {
+  width: 125px;
+  height: 125px;
+  background: white;
+  border: 2px solid black;
+}
