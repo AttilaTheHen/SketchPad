@@ -19,3 +19,8 @@ for (let j = 0; j < boxArray.length; j++) {
     event.target.style.background = 'powderblue';
   });
 }
+
+let btn = document.querySelector('button');
+btn.addEventListener('click', function(event) {
+  window.location.reload(event);
+});
